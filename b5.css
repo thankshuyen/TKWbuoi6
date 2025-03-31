@@ -1,0 +1,27 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; 
+    grid-template-rows: 100px auto 50px; 
+    row-gap: 5px; 
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+    background-color: #008000;
+    padding: 10px;
+    margin: 5px;
+}
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #008000;
+    color:aliceblue;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid transparent; 
+}
+.content{
+    text-align: justify;
+    max-width: 80%;
+    padding: 10px;
+}
